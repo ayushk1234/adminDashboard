@@ -1,0 +1,12 @@
+.home{
+    background-color: rebeccapurple;
+    display: flex;
+    .homeContainer {
+        background-color: lightblue;
+        flex:6
+    }
+    .title{
+        color: white;
+
+    }
+}

@@ -1,0 +1,52 @@
+.navbar{
+    // background-color: rebeccapurple;
+    height:50px;
+    border-bottom: 0.5px solid;
+    align-items: center;
+    font-size:14px;
+    color:#555;
+
+    .wrapper{
+        padding: 20px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+
+
+        .items{
+            display: flex;
+            padding: 2px;
+        }
+
+        .item{
+            display: flex;
+            padding: 2px;
+            position: relative;
+
+            .counter{
+                width:15px;
+                height:15px;
+
+                border-radius: 50%;
+                position: absolute;
+                background-color: red;
+                top:-5px;
+                right:0
+            }
+        }
+
+        .search{
+            border-bottom: 0.5px
+
+            input{
+                border:none;
+                outline:none;
+
+            }
+        }
+    }
+    .title{
+        color: white;
+
+    }
+}
